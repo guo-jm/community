@@ -34,7 +34,7 @@ public class Page {
     }
 
     public void setLimit(int limit) {
-        if (limit <= 1 && limit <= 100) {
+        if (limit >= 1 && limit <= 100) {
             this.limit = limit;
         }
     }
